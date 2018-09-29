@@ -1,6 +1,5 @@
 
-.footer{
-    width: 100%;
+#footer{
     background: #fff;
     border:1px solid #ccc;
 }
@@ -10,17 +9,16 @@
 }
 
 .footer_top{
-    height: 147px;
-    background: orange;
+   
     .ft_li{
+        padding: 50px 0;
         float: left;
         width: 25%;
-        vertical-align: middle;
     }
     .ftli_span{
+        margin:2px 9px 0 50px;
         display: inline-block;
         padding: 0;
-        margin: 0;
         text-align: center;
         line-height: 48px;
         width: 48px;
@@ -36,20 +34,105 @@
         float: left;
     }
     .ftli_str{
-        
         font-size: 22px;
     }
     .ftli_p{
-       
+        font-size: 14px;  
     }
 }
 .footer_center{
-    height: 263px;
-    background: red;
+    .footc_ul{
+        padding: 45px 0 90px;
+    }
+    .footc_lione,.footc_litwe{
+        float: left;
+    }
+    .footc_lione{
+        padding-left: 20px;
+        visibility: middle;
+    }
+    .footc_a{
+        
+    }
+    .footc_text{
+        float: left;
+        padding: 15px 10px;
+    }
+    .footc_img{
+        margin:0 60px 17px 12px;
+        
+    }
+    .footc_e{
+        margin: 6px;
+        width: 32px;
+        height: 32px;
+        display: block;
+        float: left;
+    }
+    .footc_weibo{
+        background: url(../images/weibo.png);
+
+    }
+    .footc_weixin{
+        background: url(../images/weixin.png);
+        
+    }
+    .footc_unkown{
+        background: url(../images/unkown.png);
+        
+    }
+    .footc_litwe{
+        width: 120px;
+        h3{
+            font-size: 18px;
+            font-weight: normal;
+            padding-bottom: 4px;
+            
+        }
+        a{
+            display: block;
+            padding: 5px;
+            color: #000;
+        }
+    }
+    .footc_thimg{
+        padding: 3px;
+    }
+    .footc_lithree{
+        text-align: center;
+        width: 108px;
+        float: left;
+        display: block;
+        padding-left: 30px;
+
+    }
+    .footc_span{
+        display: block;
+        margin-top: 5px;
+    }
+
+
 }
 .footer_bottom{
-    margin: 0 auto;
-    width: 1347px;
+    color: #c2c2c2;
+    width: 100%;
     height: 153px;
     background: black;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 16px;
+    .footb_a{
+        line-height: 35px;
+        font-size: 12px;
+        color: #c2c2c2;
+    }
+    .footb_img{
+        display: inline-block;
+        padding: 0 4px;
+        height: 30px;
+    }
+    .footb_img1{
+        display: inline-block;
+        height: 14px;
+    }
 }

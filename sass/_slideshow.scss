@@ -1,4 +1,7 @@
 
+body{
+    overflow-x: hidden;
+}
 .slideshow{
     width: 100%;
     height: 505px;
@@ -7,12 +10,13 @@
         
     }
     .slide_ul{
+        
         width: 1950px;
         height: 505px;
         position: absolute;
-        left: 0;
-        right: 0;
-        margin:0 auto;
+        left: 50%;
+        margin-left: -950px;
+        
         background: #f00;
     }
     .slide_li{
