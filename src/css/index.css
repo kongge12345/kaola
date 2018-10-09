@@ -119,9 +119,41 @@ body { overflow-x: hidden; }
 
 .doday_time { display: block; float: right; padding: 0 20px; font-size: 14px; font-weight: normal; color: #ccc; }
 
-.dodaynew { height: 842px; background: #0ff; }
+.rel { position: relative; }
 
-.hotbrand { height: 429px; background: #09f; }
+.icon-weibiaoti-- { display: inline-block; text-align: center; width: 20px; height: 16px; }
+
+.dodaynew { height: 842px; }
+.dodaynew .newtoday { width: 1120px; margin: 0 -10px; height: 768px; }
+.dodaynew .newto_li { margin: 0 10px; float: left; height: 384px; width: 260px; }
+.dodaynew .newto_bigph { display: block; width: 180px; height: 180px; padding: 39px; background: #fff; border: 1px solid #e9e9e9; }
+.dodaynew .newto_bigph img { display: inline-block; vertical-align: middle; }
+.dodaynew .newto_back { position: absolute; top: 0; left: 0; width: 260px; height: 260px; background: rgba(0, 0, 0, 0.2); }
+.dodaynew .newto_backp { font-size: 16px; color: #fff; text-align: left; text-shadow: 0 0 6px rgba(0, 0, 0, 0.3); }
+.dodaynew .newto_backspan { text-align: left; text-shadow: 0 0 6px rgba(0, 0, 0, 0.3); font-size: 20px; font-weight: bold; color: #fff; }
+.dodaynew .newto_backspan i { font-style: normal; }
+.dodaynew .newto_bot { text-indent: 13px; padding-top: 192px; }
+.dodaynew .newto_bottom { border: 1px solid #e9e9e9; background: #fff; padding: 8px; }
+.dodaynew .newto_bottom a { display: block; width: 64px; height: 64px; float: left; padding-right: 10px; }
+.dodaynew .newto_bottom img { width: 100%; height: 100%; }
+.dodaynew .newto_onep { display: block; font-size: 16px; }
+.dodaynew .newto_tit { color: #000; font-size: 16px; margin: 7px 0 7px 0; }
+.dodaynew .newto_price { color: #ff1e32; font-size: 20px; }
+.dodaynew .newto_pricet { color: #999; font-size: 14px; }
+.dodaynew .newto_lastph { color: #0a0a0a; font-size: 26px; display: block; width: 260px; height: 260px; background: url(http://haitao.nos.netease.com/1cf4rc18p21_260_260.jpg?imageView&thumbnail=260x260&quality=90) no-repeat; }
+.dodaynew .lastph_text { color: #333; font-size: 16px; font-weight: bold; }
+
+.hotbrand { height: 429px; }
+.hotbrand .hotbrand_li { float: left; width: 219px; margin-bottom: -1px; padding-bottom: 2px; border-top: 1px solid #e9e9e9; border-right: 1px solid #e9e9e9; border-bottom: 1px solid #e9e9e9; }
+.hotbrand .hotleft { display: block; width: 100%; height: 219px; }
+.hotbrand .hotleft img { width: 100%; height: 100%; }
+.hotbrand .hotleft_bottom { height: 136px; background-color: #151515; }
+.hotbrand .hotleft_text { padding-top: 41px; padding-bottom: 4px; font-size: 20px; }
+.hotbrand .hotleft_center { font-size: 14px; }
+.hotbrand .hotleft_center, .hotbrand .hotleft_text { color: #fff; text-align: center; font-weight: bold; }
+.hotbrand .info { height: 176px; }
+.hotbrand .info img { margin: 0 auto; padding-top: 13px; }
+.hotbrand .info_desc { margin-top: 10px; font-size: 14px; font-style: bold; text-align: center; }
 
 .mombaby { height: 853px; background: #0ff; }
 
