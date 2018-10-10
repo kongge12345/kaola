@@ -15,12 +15,13 @@ body{
         height: 505px;
         position: absolute;
         left: 50%;
-        margin-left: -950px;
-        
+        margin-left: -950px;     
         background: #f00;
     }
     .slide_li{
-        float: left;
+        position: absolute;
+        top: 0;
+        left: 0;
         height: 505px;
         width: 1950px;
         display: block;
@@ -82,4 +83,60 @@ body{
         font-size: 14px;
         color: #fff;
     }
+}
+.leftBut{
+    position: absolute;
+    left: 300px;
+    display: block;
+    width: 37px;
+    height: 75px;
+    z-index: 3;
+    background:rgba(0, 0, 0, 0.5);
+    top: 200px;
+    .icon-youjiantou1{
+        font-size: 40px;
+        text-align: center;
+        line-height: 75px;
+        color: #fff;
+    }
+}
+.rightBut{
+    z-index: 3;
+    position: absolute;
+    right: 100px;
+    top: 200px;
+    display: block;
+    width: 37px;
+    height: 75px;
+    background:rgba(0, 0, 0, 0.5);
+    .icon-mjiantou{
+        font-size: 40px;
+        text-align: center;
+        line-height: 75px;
+        color: #fff;
+    }
+}
+.slide_bot{
+    position: absolute;
+    bottom: 80px;
+    left: 330px;
+    
+    li{
+        float: left;
+        margin: 0 8px;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        background: #fff;
+    }
+}
+.red{
+    background: #f00 !important;
+    
+}
+.opa{
+    opacity: 0;
+}
+.noopa{
+    opacity: 100;
 }

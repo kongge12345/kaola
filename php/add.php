@@ -3,8 +3,8 @@
 	require "conn.php";
 
 
-	// $content=$_GET['sid'];
-	// $where=$_GET['url'];
+	$content=$_GET['sid'];
+	$where=$_GET['url'];
 	
 
 

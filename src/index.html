@@ -17,23 +17,33 @@
 
 	<!-- 轮播图 -->
 	<div class="slideshow">
-		<div class="slide_top">
-			<ul class="slide_ul clear">
-				<!-- <li class="slide_li">
-					<img src="images/slicephoto (1).jpg">
-				</li>
-				<li class="slide_li">
-					<img src="images/slicephoto (2).jpg">
-				</li>
-				<li class="slide_li">
-					<img src="images/slicephoto (3).jpg">
-				</li>
-				<li class="slide_li">
-					<img src="images/slicephoto (4).jpg">
-				</li> -->
-				<li class="slide_li">
-					<img class="slide_img" src="images/slicephoto (5).jpg">
-				</li>
+		<div class="slide_top clear">
+			<span class="leftBut"><i class="iconfont icon-youjiantou1"></i></span>
+			<span class="rightBut"><i class="iconfont icon-mjiantou"></i></span>
+			<div class="slide_div">
+					<!--<ul class="slide_ul clear">
+							 <li class="slide_li">
+								<img src="images/slicephoto (1).jpg">
+							</li> 
+							<li class="slide_li">
+								<img src="images/slicephoto (2).jpg">
+							</li>
+							<li class="slide_li">
+								<img src="images/slicephoto (3).jpg">
+							</li>
+							<li class="slide_li">
+								<img src="images/slicephoto (4).jpg">
+							</li>
+							<li class="slide_li">
+								<a href="#"><img class="slide_img" src="images/slicephoto (5).jpg"></a>
+							</li>
+						</ul>-->
+			</div>
+			<ul class="slide_bot">
+				<li class="red"></li>
+				<li></li>
+				<li></li>
+				<li></li>
 			</ul>
 			<div class="slide_bottom clear">
 				<div class="slideb_wrap">
@@ -89,14 +99,19 @@
 			<span class="dodayte">今日限时购</span>
 			<span class="doday_late">本场还剩</span>
 			<span class="dodayi">
-				<i class="dodayh">0</i>
-				<i class="dodayh">1</i>
+				<i class="dodayh" id="hour1">0</i>
+				<i class="dodayh" id="hour2">1</i>
 				<span class="doday_late">:</span>
-				<i class="dodayh">0</i>
-				<i class="dodayh">7</i>
+				<i class="dodayh"
+				id="minute1">0</i>
+				<i class="dodayh"
+				id="minute2">7</i>
 				<span class="doday_late">:</span>
-				<i class="dodayh">3</i>
-				<i class="dodayh">1</i>
+				<i class="dodayh"
+				id="second1"
+				>3</i>
+				<i class="dodayh"
+				id="second2">1</i>
 			</span>
 			<a class="doday_time" href="#">进入限时购频道></a>
 		</h4>
@@ -441,7 +456,9 @@
 	<div></div>
 
 	<script src="script/thirdplugins/jquery.js" type="text/javascript"></script>
-	<script src="script/js/index.js" type="text/javascript"></script>
+	<!-- <script src="script/js/index.js" type="text/javascript"></script> -->
+	<script src="script/thirdplugins/require.js" type="text/javascript"  defer async="true" data-main="script/js/index.js"></script>
+	<script src="script/js/daojishi.js" type="text/javascript"></script>
 </body>
 
 </html>

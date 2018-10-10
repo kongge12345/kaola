@@ -4,4 +4,5 @@
    $('.footercontent').load('footer.html');
 })(jQuery);
 require(['banner']);
+require(['secondnav']);
 
