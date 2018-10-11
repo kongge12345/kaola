@@ -1,7 +1,5 @@
 define(['config'], function () {
     require(['jquery'], function ($) {
-      
-       
                 var $slide_div=$('.slide_div');
                  $.ajax({
                      type: "GET",

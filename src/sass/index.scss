@@ -1,13 +1,16 @@
 @charset "utf-8";
 @import 'header';
-@import 'index_main';
 @import 'footer';
+@import 'index_main';
 @import 'slideshow';
 
 $back1:#0ff;
 $back2:#09f;
+body{
+    background: #efefef;
+}
 
-.dodaytime,.dodaynew,.hotbrand,.mombaby,.beautify,.shoesbag,.household,.nutrition,.elec,.exercise{
+.dodaytime,.dodaynew,.hotbrand,.mombaby,.beautify,.shoesbag,.household,.nutrition,.elec,.exercise,.guesslike{
     margin: 0 auto;
     width: 1100px;
     padding-top: 25px;
@@ -346,49 +349,158 @@ $back2:#09f;
 .mombaby{
     height: 853px;
     background: $back1;
+    display: none;
 }
 .hotbuy_one{
+    display: none;
     
 }
 .beautify{
     height: 853px;
     background: $back2;
+    display: none;
 }
 .hotbuy_twe{
+    display: none;
 
 }
 .shoesbag{
     height: 853px;
     background: $back1;
+    display: none;
 }
 .hotbuy_three{
+    display: none;
 
 }
 .household{
     height: 853px;
     background: $back2;
+    display: none;
 }
 .hotbuy_four{
+    display: none;
 
 }
 .nutrition{
     height: 853px;
     background: $back1;
+    display: none;
 }
 .hotbuy_five{
+    display: none;
     
 }
 .elec{
     height: 853px;
     background: $back2;
+    display: none;
 }
 .hotbuy_six{
+    display: none;
 
 }
 .exercise{
     height: 853px;
     background: $back1;
+    display: none;
 }
 .hotbuy_seven{
+    display: none;
+
+}
+.guesslike{
+    padding-bottom: 80px;
+   
+}
+.newRecomItemWrap {
+    margin: 0 10px;
+    width: 260px;
+    margin: 0;
+    border: 0;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #eaeaea;
+.m-reclst {
+    border: 0;
+    background: transparent;
+}
+.newRecomWrap>div {
+    width: 1120px;
+    margin: 0 -10px;
+}
+.newRecomWrap>div {
+    margin-left: 0;
+}
+.newRecomWrap>div {
+    margin-left: -15px;
+}
+.m-reclst {
+    border: 1px solid #eaeaea;
+    background: #fff;
+}
+.itemImg {
+    width: 180px;
+    height: 180px;
+    border: 1px solid #e9e9e9;
+    background-color: #fff;
+    padding: 39px;
+    display: block;
+    img{
+        width: 180px;
+        height: 180px;
+    }
+}
+.wrap {
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.itemTitle{
+    white-space: normal;
+    word-wrap: break-word;
+    height: 44px;
+    margin: 7px 0 14px 0;
+    padding: 0 30px 0 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    a {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    }
+}
+.itemInfo {
+    padding: 0 15px 0 0;
+    .price {
+        vertical-align: middle;    
+        color: #ff1e32;
+        float: left;
+        font-size: 20px;
+    }
+    .marprice {
+        padding-left: 5px;
+        color: #999;
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .comment {
+        float: right;
+        display: block;
+        height: 24px;
+        line-height: 36px;
+        color: #999;
+        font-size: 12px;
+    }
+}
+
+
+}
+.guesslike_wrap{
+    
 
 }

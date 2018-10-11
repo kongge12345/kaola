@@ -1,0 +1,88 @@
+#header { height: 172px; background: #fff; }
+#header .nav_bottom, #header .nav_top { border-bottom: 1px solid #ccc; width: 100%; }
+#header .nav_top { background: #000; }
+#header .nav_top .navt_wrap { height: 30px; margin: 0 auto; width: 1090px; line-height: 30px; }
+#header .nav_top .nav_left1, #header .nav_top .nav_left2 { display: inline; color: #999; }
+#header .nav_top a { margin-left: 20px; color: #999; }
+#header .nav_top a:hover { color: #fff; }
+#header .nav_top ul { float: right; }
+#header .nav_top li { float: left; position: relative; margin-right: 12px; padding-right: 8px; }
+#header .nav_top .arr { height: 0; width: 0; border: 4px solid transparent; border-top-color: #999; position: absolute; left: 100%; top: 15px; }
+#header .nav_loge_wrap { height: 100px; width: 1090px; margin: 0 auto; }
+#header .nav_loge_wrap .loge { display: block; width: 209px; padding-top: 22px; margin-right: 135px; float: left; }
+#header .nav_loge_wrap img { width: 100%; }
+#header .nav_loge_wrap .find { margin-top: 30px; line-height: 40px; float: left; display: block; width: 511px; height: 40px; border: 2px solid #ff2337; border-radius: 24px 24px; position: relative; margin-right: 50px; }
+#header .nav_loge_wrap input { height: 40px; width: 408px; margin-left: 9px; float: left; border: 0; }
+#header .nav_loge_wrap .find_back1 { background: url(../images/icon1.png) no-repeat -466px -667px; width: 14px; height: 14px; display: block; float: left; margin-left: 10px; margin-top: 13px; }
+#header .nav_loge_wrap .find_back2 { width: 60px; height: 40px; background: #ff2337; border-radius: 40px; position: absolute; background-image: url(../images/icon1.png); background-position: -485px -655px; top: 0; right: 0; }
+#header .nav_loge_wrap .buycar { display: block; height: 40px; width: 110px; border: 2px solid #ff2337; border-radius: 40px; float: left; margin-top: 30px; line-height: 40px; position: relative; }
+#header .nav_loge_wrap i { display: block; float: left; width: 20px; height: 20px; position: absolute; left: 10px; top: 10px; background: url(../images/car.png) no-repeat; }
+#header .nav_loge_wrap .car { display: block; float: left; display: block; width: 71px; height: 36px; font-size: 15px; position: absolute; left: 37px; color: #000; }
+#header .nav_loge_wrap h { display: inline-block; border-radius: 20px; height: 20px; width: 20px; background: #ff2337; position: absolute; left: 47px; color: #fff; top: 10px; text-align: center; line-height: 20px; font-size: 12px; }
+#header .nav_bottom * { font-size: 14px; }
+#header .nav_bottom .navb_wrap { margin: 0 auto; width: 1090px; height: 40px; position: relative; }
+#header .nav_bottom .buttonbox { height: 40px; width: 164px; background: #ff2337; line-height: 40px; float: left; }
+#header .nav_bottom .dropbox { position: absolute; width: 164px; top: 40px; background: #ff2337; z-index: 10; }
+#header .nav_bottom .buttoni { float: left; margin: 14px; padding-right: 12px; }
+#header .nav_bottom .buttoni i { width: 15px; height: 0; border-top: 2px solid #ddd; display: block; margin-bottom: 3px; }
+#header .nav_bottom .bu_span { font-size: 14px; color: #fff; float: left; }
+#header .nav_bottom .dropli { color: #fff; padding: 12px; float: left; height: 22px; width: 140px; border-top: 0.5px solid #ff5160; border-left: 1px solid #ff5160; }
+#header .nav_bottom .dropli span { position: absolute; left: 56px; }
+#header .nav_bottom .dropimg { position: absolute; }
+#header .nav_bottom .icon-youjiantou { float: right; line-height: 22px; font-size: 12px; }
+#header .nav_bottom .navb_right { float: left; line-height: 40px; }
+#header .nav_bottom .navr_li { float: left; font-weight: bold; }
+#header .nav_bottom .navr_li span { color: #fff; }
+#header .nav_bottom .navr_a { color: #333; display: block; padding: 0 23px; height: 40px; font-size: 15px; }
+#header .nav_bottom .muying { position: absolute; width: 931px; height: 462px; background: #fff; left: 164px; top: 0px; border: 1px solid #ff2337; z-index: 11; }
+#header .muying_left { width: 690px; float: left; }
+#header .muying_leili { float: left; z-index: 12; }
+#header .muying_leili .muying_tit { color: #000; font-weight: bold; margin: 10px 0 5px 20px; display: block; }
+#header .muying_leili .muying_con { color: #999; font-size: 14px; height: 34px; line-height: 35px; padding: 0 3px; white-space: nowrap; }
+#header .muying_leili .muying_more { border-top: 1px solid #ccc; width: 283px; height: 170px; padding: 10px 30px 10px 10px; }
+#header .muying_right { width: 236px; float: left; background: #ebe9e9; }
+#header .brandlist { padding: 5px; }
+#header .brandlist a { margin: 1px; display: inline-block; }
+#header .brandlist img { border: 1px solid #ccc; width: 106px; height: 106px; }
+#header .brandlist .muying_last img { width: 236px; }
+
+.write { background: #fff; }
+.write span { color: #ff5160; }
+.write .icon-youjiantou { color: #ff5160; }
+
+.hide { display: none; }
+
+#footer { background: #fff; border: 1px solid #ccc; }
+
+.footer_top, .footer_center { width: 1100px; margin: 0 auto; }
+
+.footer_top .ft_li { padding: 50px 0; float: left; width: 25%; }
+.footer_top .ftli_span { margin: 2px 9px 0 50px; display: inline-block; padding: 0; text-align: center; line-height: 48px; width: 48px; height: 48px; border: 2px solid #ccc; border-radius: 48px; font-size: 20px; font-weight: bold; float: left; }
+.footer_top .ftli_wrap { float: left; }
+.footer_top .ftli_str { font-size: 22px; }
+.footer_top .ftli_p { font-size: 14px; }
+
+.footer_center .footc_ul { padding: 45px 0 90px; }
+.footer_center .footc_lione, .footer_center .footc_litwe { float: left; }
+.footer_center .footc_lione { padding-left: 20px; visibility: middle; }
+.footer_center .footc_text { float: left; padding: 15px 10px; }
+.footer_center .footc_img { margin: 0 60px 17px 12px; }
+.footer_center .footc_e { margin: 6px; width: 32px; height: 32px; display: block; float: left; }
+.footer_center .footc_weibo { background: url(../images/weibo.png); }
+.footer_center .footc_weixin { background: url(../images/weixin.png); }
+.footer_center .footc_unkown { background: url(../images/unkown.png); }
+.footer_center .footc_litwe { width: 120px; }
+.footer_center .footc_litwe h3 { font-size: 18px; font-weight: normal; padding-bottom: 4px; }
+.footer_center .footc_litwe a { display: block; padding: 5px; color: #000; }
+.footer_center .footc_thimg { padding: 3px; }
+.footer_center .footc_lithree { text-align: center; width: 108px; float: left; display: block; padding-left: 30px; }
+.footer_center .footc_span { display: block; margin-top: 5px; }
+
+.footer_bottom { color: #c2c2c2; width: 100%; height: 153px; background: black; margin: 0 auto; text-align: center; padding-top: 16px; }
+.footer_bottom .footb_a { line-height: 35px; font-size: 12px; color: #c2c2c2; }
+.footer_bottom .footb_img { display: inline-block; padding: 0 4px; height: 30px; }
+.footer_bottom .footb_img1 { display: inline-block; height: 14px; }
+
+.find, .buycar, .nav_bottom { visibility: hidden; }
+
+/*# sourceMappingURL=registor.css.map */
