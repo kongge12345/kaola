@@ -44,8 +44,7 @@ define(['config'], function () {
                         '</li>'; */
 
                         '<div class="newRecomItemWrap">'+
-                            '<a class="itemImg" target="_blank" href="@@">'+
-                                '<img border="0"'+
+                            '<a class="itemImg" target="_blank" href="http://10.31.162.50/phpdome/new%20webproject/www.kaola.com/src/details.html?sid='+ value.sid +'"><img border="0"'+
                                     'src="' + value.url.split(',')[0] + '" style="opacity: 1;">'+
                             '</a>'+
                             '<p class="itemTitle">'+

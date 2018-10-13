@@ -1,5 +1,6 @@
 #header { height: 172px; background: #fff; }
 #header .nav_bottom, #header .nav_top { border-bottom: 1px solid #ccc; width: 100%; }
+#header .black { background: #000 !important; }
 #header .nav_top { background: #000; }
 #header .nav_top .navt_wrap { height: 30px; margin: 0 auto; width: 1090px; line-height: 30px; }
 #header .nav_top .nav_left1, #header .nav_top .nav_left2 { display: inline; color: #999; }
@@ -83,7 +84,9 @@
 .footer_bottom .footb_img { display: inline-block; padding: 0 4px; height: 30px; }
 .footer_bottom .footb_img1 { display: inline-block; height: 14px; }
 
-.find, .buycar, .nav_bottom { visibility: hidden; }
+.dropbox { display: none; }
+
+.navb_left:hover .dropbox { display: block; }
 
 .topimg { height: 100px; width: 504px; background-image: url(https://haitao.nos.netease.com/c5bc5b4005c9413888f7d1127a734609.jpg?imageView&thumbnail=504x0&quality=85&v=1); }
 
