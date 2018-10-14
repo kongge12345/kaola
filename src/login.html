@@ -43,6 +43,7 @@
                                     <label class="u-label f-dn" for="tel">请输入手机号</label>
                                     <input type="tel" id="phoneipt" tabindex="1" autocomplete="off" class="dlemail"
                                         name="tel" spellcheck="false" placeholder="请输入手机号">
+                                    <label id="phoneipt-error" class="error" for="phoneipt"></label>
                                     
                                 </div>
 
@@ -60,6 +61,7 @@
                                 <div class="u-input box">
                                     <label class="u-label f-dn">请输入密码</label>
                                     <input type="password" tabindex="1" autocomplete="off" class="dlemail"
+                                    id="login_password"
                                         name="password" spellcheck="false" placeholder="请输入密码">
                                 </div>
 
@@ -69,7 +71,7 @@
                                 <!--Regular if27-->
                             </div>
                             <div class="submitbox">
-                                <input type="submit" value="注册" name="submit" id="btn" />
+                                <input type="submit" value="登陆" name="submit" id="login_submit" />
                             </div>
 
                             <div class="chebox">
@@ -101,7 +103,7 @@
                         </div>
                     </div>
 
-                    <div class="login_lwra registor">
+                    <div class="login_lwra registor hide">
                             <form id="registor_from">
                                 <div class="inputbox">
                                     <!--Regular if25-->
@@ -112,7 +114,8 @@
                                     <div class="u-input box">
                                         <label class="u-label f-dn">请输入手机号</label>
                                         <input type="tel" tabindex="1" autocomplete="off" class="dlemail"
-                                            name="tel" spellcheck="false" placeholder="请输入手机号">
+                                            name="tel" id="reg_tel" spellcheck="false" placeholder="请输入手机号">
+                                        
                                     </div>
     
                                     <div class="u-tip">
@@ -129,7 +132,7 @@
                                     <div class="u-input box">
                                        <!--  <label class="u-label f-dn">请输入密码</label> -->
                                         <input type="tel" tabindex="1" autocomplete="off" class="dlemail"
-                                            name="password" id="password" spellcheck="false" placeholder="请输入密码">
+                                            name="password" id="reg_password" spellcheck="false" placeholder="请输入密码">
                                     </div>
     
                                     <div class="u-tip">
@@ -155,7 +158,7 @@
                                     <!--Regular if27-->
                                 </div>
                                 <div class="submitbox">
-                                    <input type="submit" value="注册" name="submit" />
+                                    <input type="submit" value="注册" name="submit" id="submit"/>
                                 </div>
     
                                 <div class="chebox">

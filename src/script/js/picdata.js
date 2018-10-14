@@ -1,5 +1,5 @@
 define(['config'], function () {
-    require(['jquery'], function ($) {
+    require(['jquery','jquerycookie','jqueryvalidate'], function ($) {
         !function () {
             //添加cookie的函数
             function addCookie(key, value, day) {

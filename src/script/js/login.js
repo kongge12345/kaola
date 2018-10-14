@@ -9,6 +9,12 @@
 
  define(['config','registor','secondnav'], function () {
     require(['jquery','jqueryvalidate','jquerycookie'], function ($) {
+
+        function addCookie(key,value,day){
+            var date=new Date();//创建日期对象
+            date.setDate(date.getDate()+day);//过期时间：获取当前的日期+天数，设置给date
+            document.cookie=key+'='+encodeURI(value)+';expires='+date;//添加cookie，设置过期时间
+        }
             /* return {
                 $('.topcontent').load('header.html')
                 $('.footercontent').load('footer.html')
@@ -60,10 +66,11 @@
                         }
                         });
     
-                        $('#btn').on('click',function(){
+                        $('#login_submit').on('click',function(){
                             var $tel=$('#phoneipt').val();
-                            console.log($tel);
-                            var $password=$('#password').val();
+                            // console.log($tel);
+                            var $password=$('#login_password').val();
+                            // console.log($password);
                             $.ajax({
                                 type:'POST',
                                 url:'http://10.31.162.50/phpdome/new%20webproject/www.kaola.com/php/login.php',
@@ -72,13 +79,14 @@
                                     password:$password
                                 },
                                 success:function(data){//请求成功，接收后端返回的值
-                                    alert(data);
+                                    // alert(data);
                                     if(!data){//用户名或者密码错误
-                                        // $('.error').html('手机号或者密码错误');
+                                        alert('手机号或者密码错误，请重新输入');
                                         // $('.password').val('');
-                                        alert(222222);
+                                        // alert(222222);
                                     }else{//成功,存cookie,跳转到首页
-                                        // addCookie('tel',$tel,10);
+                                        addCookie('tel',$tel,10);
+                                        // alert(isset($('#denglu')));
                                         location.href='http://10.31.162.50/phpdome/new%20webproject/www.kaola.com/src';
                                     }
                                 }

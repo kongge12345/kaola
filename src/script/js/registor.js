@@ -1,6 +1,6 @@
 /* 注册页面的js */
 define(['config'], function () {
-    require(['jquery','jqueryvalidate','jquerycookie'], function ($) {
+    require(['jquery','jqueryvalidate','jquerycookie'], function ($,jv,jc) {
         !function(){
             $('#registor_from').validate({
                 rules:{
@@ -18,7 +18,7 @@ define(['config'], function () {
                     },
                     repass:{
                         required:true,
-                        equalTo:'#password'
+                        equalTo:'#reg_password'
                     }
 
                 },
@@ -40,33 +40,59 @@ define(['config'], function () {
                 }
             });
       
-            $.validator.setDefaults({
+            /* $.validator.setDefaults({
                 // 添加校验成功后的执行函数--修改提示内容，并为正确提示信息添加新的样式(默认是valid)
 			    success: function(label){
 			        label.text('√').css({'color':'green'}).addClass('valid');
 			    }
-            });
+            }); */
 
-            $('.submitbox').on('click',function(){
-                var $username=$('#username').val();
-                var $password=$('#password').val();
+
+            
+
+            $('#submit').on('click',function(){
+                var $tel=$('#reg_tel').val();
+                var $password=$('#reg_password').val();
+                console.log($tel);
+                console.log($password);
                 $.ajax({
+                    type:'POST',
+                    url: 'http://10.31.162.50/phpdome/new%20webproject/www.kaola.com/php/reg.php',
+                    data:{
+                        tel:$tel,
+                        pass:$password
+                    }
+                }).done(function (data) {
+                    if(!data){//用户名或者密码错误
+                        $('#error').html('用户名或者密码错误');
+                        $('#password').val('');
+                    }else{//成功,存cookie,跳转到首页
+                        alert(22222);
+                        // addCookie('tel',$tel,7);
+                        location.href='index.html';
+                    }
+                });
+
+                /* $.ajax({
                     type:'post',
-                    url:'login.php',
+                    url:'http://10.31.162.50/phpdome/new%20webproject/www.kaola.com/php/reg.php',
                     data:{//将用户名和密码传输给后端
-                        name:$username,
+                        tel:$tel,
                         pass:$password
                     },
                     success:function(data){//请求成功，接收后端返回的值
+                        alert(data);
                         if(!data){//用户名或者密码错误
+                            alert(111111);
                             $('#error').html('用户名或者密码错误');
                             $('#password').val('');
                         }else{//成功,存cookie,跳转到首页
-                            addCookie('UserName',$username,7);
+                            alert(22222);
+                            // addCookie('UserName',$username,7);
                             location.href='index.html';
                         }
                     }
-                })
+                }) */
             });
 
 
