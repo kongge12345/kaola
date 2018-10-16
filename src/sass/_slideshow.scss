@@ -86,7 +86,8 @@ body{
 }
 .leftBut{
     position: absolute;
-    left: 300px;
+    left: 50%;
+    margin-left: -360px;
     display: block;
     width: 37px;
     height: 75px;
@@ -103,7 +104,8 @@ body{
 .rightBut{
     z-index: 3;
     position: absolute;
-    right: 100px;
+    right: 50%;
+    margin-right: -590px;
     top: 200px;
     display: block;
     width: 37px;
@@ -119,7 +121,8 @@ body{
 .slide_bot{
     position: absolute;
     bottom: 80px;
-    left: 330px;
+    left: 50%;
+    margin-left: -330px;
     
     li{
         float: left;
